@@ -40,9 +40,9 @@ public class UserHelper extends SQLiteOpenHelper {
         db.execSQL(SQL_CREATE_USER_TABLE);
 
         // Insert Into Table
-        db.execSQL("insert into " + TABLE_NAME + " values(7860,'Tanishq Saini', 'tanishq@gmail.com','7584','7895641238', 15000)");
-        db.execSQL("insert into " + TABLE_NAME + " values(5862,'Gagan Tripathi', 'gagan@gmail.com','1258','8995641238', 5000)");
-        db.execSQL("insert into " + TABLE_NAME + " values(7895,'Surya Pratap', 'surya@gmail.com','8896','7595645896', 1000)");
+        db.execSQL("insert into " + TABLE_NAME + " values(7860,'Rakshitha N', 'rakshithannn24@gmail.com','7584','7895641238', 15000)");
+        db.execSQL("insert into " + TABLE_NAME + " values(5862,'Sahana', 'sahana@gmail.com','1258','8995641238', 5000)");
+        db.execSQL("insert into " + TABLE_NAME + " values(7895,'Pallavi km', 'pallavi@gmail.com','8896','7595645896', 1000)");
         db.execSQL("insert into " + TABLE_NAME + " values(1258,'Vikram Garasiya', 'vikram@gmail.com','7752','9995640038', 8000)");
         db.execSQL("insert into " + TABLE_NAME + " values(7410,'Shivani Kumari', 'shivani@gmail.com','3669','9095648962', 7500)");
         db.execSQL("insert into " + TABLE_NAME + " values(8529,'Piyush Joshi', 'piyush@gmail.com','9985','8855640238', 6500)");
